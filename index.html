@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MOKUREN</title>
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+<body>
+   <header>
+      <div class="headerdiv">
+         <h1><a href="#index-top">M O K U R E N</a></h1>
+         <ul class="h-menu">
+            <li><a href="#index-news">News</a></li>
+            <li><a href="#index-about">About</a></li>
+            <li>Gallery</li>
+            <li><a href="#index-link">Link</a></li>
+         </ul>
+      </div>
+      <div id="openmenu-div" onclick="obj=document.getElementById('openmenu').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;"><span class="icon icon1"></span></a><br>
+      </div>      
+         <!-- 折り畳まれ部分 -->
+         <div id="openmenu" style="display:none;float: right;">
+            <ul class="h-openmenu">
+               <li><a href="#index-news">News</a></li>
+               <li><a href="#index-about">About</a></li>
+               <li>Gallery</li>
+               <li><a href="#index-link">Link</a></li>
+            </ul>
+         </div>
+         <!--// 折り畳まれ部分 -->
+   </header>
+   <main>
+      <div class="maintop">
+         <a id="index-top"><img src="img/index-img.jpg"></a>
+      </div>
+      <a id="index-news"><h1>News</h1></a>
+      <hr>
+      <div id="news">
+         <div class="news-a">
+             <img src="img/img-c81-5sub.jpg">
+             <p>2020.02.16<br>
+               イラストの更新とグループ展のお知らせ<br>
+             </p>
+         </div>
+         <div class="news-b">
+               <img src="img/img-c79sub.jpg">
+               <p>2020.02.16<br>
+                 イラストの更新<br>
+               </p>
+         </div>
+         <div class="news-c">
+               <img src="img/img-c78sub.jpg">
+               <p>2020.02.16<br>
+                 イラストの更新<br>
+               </p>
+         </div>
+         <div class="news-d">
+               <img src="img/img-c29sub.jpg">
+               <p>2020.02.16<br>
+                 イラストの更新<br>
+               </p>
+         </div>
+      </div>
+      <h3 class="newsmore">more news</h3>
+      <div class="about">
+          <a id="index-about"><h1>About</h1></a>
+          <hr>
+          <p>※ 当サイトの全ての作品、デザインの無断転載、複製、再配布、改変、印刷はご遠慮下さい。<br>
+          <br>
+          名前 ： KAORI　4月23日生まれ。ゲームやってるのがいつも好き。<br>
+          好きな歌手 ： Cocco、鬼束ちひろ、谷山浩子、ChouChou<br>            
+          <br>
+      </div>
+      <div class="link">
+         <a id="index-link"><h1>Link</h1></a>
+         <hr>
+         <p>MOKUREN<br>
+            URL：http://xxxxxxxxxxx.jp/<br>
+            master：KAORI<br>
+            <img src="img/banner.gif"><br>
+            Banner URL：http://xxxxxxxxxx.jp/banner.gif<br>
+            <br>
+            当サイトへのリンクはフリーです。</p>
+     </div>
+   </main>
+</body>
+<footer>
+   <div class="fuooterdiv">
+      <p>2020~KAORI</p>
+   </div>
+</footer>
+</html>
