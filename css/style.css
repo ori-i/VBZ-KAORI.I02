@@ -440,17 +440,16 @@ footer{
     .headerdiv{clear: both;}
     .headerdiv h1{
         margin: 1rem;
-        margin-left: 2rem;
-        margin-top: 0.8rem;
+        margin-top: 1.2rem;
         padding: 0;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .h-menu{
         display: none;
     }
     #openmenu-div{
         margin: 1rem;
-        margin-top: 1.7rem;
+        margin-top: 1.2rem;
     }
     .h-openmenu{
         clear: both;
